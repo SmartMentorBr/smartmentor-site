@@ -1,11 +1,11 @@
+import Image from "next/image"
 import Button from "./componentes/Button"
 import CTAButton from "./componentes/buttons/CTAButton"
 
 export default () => (
     <nav className="flex justify-between items-center py-2 px-4 bg-white max-w-screen-2xl m-auto mt-4 shadow-md rounded-lg mb-8">
         <div>
-            {/*logo*/}
-            <img src="/logo-smart.svg" alt="" />
+            <Image src="/logo-smart.svg" alt="" width={160} height={120}/>
         </div>        
         <div className="flex items-center gap-2">
             <div className="hidden lg:flex items-center gap-4">

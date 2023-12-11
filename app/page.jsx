@@ -50,7 +50,7 @@ const comoFunciona = [
 
 export default function Home() {
   return (
-    <div className='w-8/12 m-auto'>
+    <div className='lg:w-8/12 w-11/12 m-auto'>
       <Hero/>
       <main>
         <Features features={features}/>

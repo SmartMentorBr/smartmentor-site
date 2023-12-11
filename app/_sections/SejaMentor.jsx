@@ -1,10 +1,12 @@
 import SectionTitle from "./componentes/SectionTitle";
 import SecondaryButton from "./componentes/buttons/SecondaryButton";
 import CheckList from "./componentes/CheckList";
+import Image from "next/image";
+
 
 export default () => (
     <div className="grid grid-cols-2 items-center">
-        <img src="/sample-img.svg" alt="" />
+        <Image src="/sample-img.svg" alt="" width={300} height={300}/>
         <div className="flex gap-4 flex-col">
             <SectionTitle
                 align={'left'}

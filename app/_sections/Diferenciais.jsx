@@ -1,6 +1,8 @@
+import Image from "next/image"
+
 const Check = ({checked}) => {
   return checked ? 
-    <img className="w-12 m-auto" src="/check.svg" alt="" srcset="" />
+    <Image className="w-12 m-auto" src="/check.svg" alt="" width={30} height={30}/>
     : <></>
 }
 

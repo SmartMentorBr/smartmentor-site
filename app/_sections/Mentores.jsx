@@ -31,7 +31,7 @@ export default () => (
             title="Mentores"
             subtitle="Conheça alguns dos nossos melhores mentores"
         />
-        <div className="flex justify-center gap-2">
+        <div className="flex justify-center gap-8 flex-col lg:flex-row">
             {mentores.map(mentor => <Mentor
                 img={mentor.img}
                 name={mentor.name}

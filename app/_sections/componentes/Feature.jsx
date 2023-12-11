@@ -1,7 +1,9 @@
+import Image from "next/image"
+
 export default ({index, title, content, subtitle, img}) => (
     <div className="grid lg:grid-cols-2 items-center">
       <div className={index % 2 !== 0 ? "lg:order-last" : ""}>
-        <img src={img} alt="" />
+        <Image src={img} width={600} height={600}/>
       </div>
       <div>
         <div className="flex flex-col gap-4">
