@@ -7,7 +7,7 @@ import Section from "../Section";
 import { Player } from "@lottiefiles/react-lottie-player";
 
 export default () => <Section id="mentoria">
-<div className="grid grid-cols-2 items-center py-4">
+<div className="grid lg:grid-cols-2 items-center py-4">
     <Player autoplay loop src={"./lottie/lottie-4.json"}/>
 
     <div className="flex gap-1 flex-col">

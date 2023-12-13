@@ -9,11 +9,11 @@
   }
 
   .hero-title {
-    @apply text-xl font-bold;
+    @apply text-lg lg:text-xl font-bold;
   }
 
   .title {
-    @apply text-xl font-bold;
+    @apply text-lg lg:text-xl font-bold;
   }
 
   .subtitle {
@@ -39,3 +39,10 @@
     transform: translateY(0%);
   }
 }
+
+body, html {
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+

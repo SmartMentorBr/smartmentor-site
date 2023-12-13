@@ -1,15 +1,14 @@
 import Container from "../../layout/Container"
-import useData from "@/hooks/useData"
-import NavMenu from "./NavMenu"
+import NavMenu from "./NavBar"
+import NavItems from "./NavItems"   
 
-export default async () => {
-    const { navigation } = await useData()
-    const links = navigation
-
+export default () => {
     return (
-        <nav className="fixed w-full z-50 p-1">
+        <nav className="fixed w-screen z-50 pt-1">
             <Container>
-                <NavMenu links={links} />
+                <NavMenu>
+                    <NavItems/>
+                </NavMenu>
             </Container>
         </nav>
     )
