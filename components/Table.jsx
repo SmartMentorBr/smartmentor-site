@@ -17,7 +17,7 @@ const Check = ({checked}) => {
 
 export default ({head = [], items = []}) => {
     return (
-    <table className="sm:w-10/12">
+    <table className="sm:w-10/12 overflow-hidden rounded-lg">
         <thead className="bg-primary text-black">
             <tr className="grid grid-cols-3 lg:grid-cols-4 text-[0.7rem] md:text-base">
                 <th className="hidden lg:block"></th>
