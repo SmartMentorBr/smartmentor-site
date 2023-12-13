@@ -22,7 +22,7 @@ export default () => <Section id="smartmoney">
                 "Ganho de autoridade e Credibilidade"
             ]}/>
             <div className="py-8">
-            <SecondaryBtn>
+            <SecondaryBtn href="./smartmoney">
                 Quero conhecer a Smartmoney
             </SecondaryBtn>
             </div>

@@ -22,7 +22,7 @@ export default () => <Section id="mentoria">
             'Potencialize oportunidades de negócio',
             'Acesse leads qualificados'
         ]}/>
-        <SecondaryBtn>
+        <SecondaryBtn href="https://www.app.smartmentor.co/">
             Quero ser mentor
         </SecondaryBtn>
         </div>

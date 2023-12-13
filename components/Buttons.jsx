@@ -33,8 +33,8 @@ export const CallToAction = async () => {
     )
 }
 
-export const SecondaryBtn = ({children}) => <Button classes={`
+export const SecondaryBtn = ({children, href}) => <Button classes={`
     bg-black text-white 
-`}>
+`} href={href}>
     {children}
 </Button>
