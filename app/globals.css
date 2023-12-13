@@ -4,8 +4,38 @@
 
 @layer base {
   html {
-    @apply bg-cyan-50 text-slate-950;
+    font-size: max(16px, 1vw);
+    @apply bg-light;
   }
+
+  .hero-title {
+    @apply text-xl font-bold;
+  }
+
+  .title {
+    @apply text-xl font-bold;
+  }
+
+  .subtitle {
+    @apply text-emerald-600 font-bold uppercase text-base;
+  }
+
+  .section {
+    @apply min-h-screen flex items-center pt-3
+  }
+
 }
 
+@keyframes jump {
+  0% {
+    transform: translateY(0%);
+  }
 
+  30% {
+    transform: translateY(-10%);
+  }
+
+  100%{
+    transform: translateY(0%);
+  }
+}

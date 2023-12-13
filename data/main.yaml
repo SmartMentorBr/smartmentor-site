@@ -1,0 +1,120 @@
+navigation:
+  - Benefícios: "#beneficios"
+  - Como Funciona: "#como-funciona"
+  - Depoimentos: "#depoimentos"
+  - Mentores: "#mentores"
+  - Smartmoney: "#smartmoney"
+  - Contato: "#contato"
+
+ctaLink: "https://tally.so/r/mRMxGJ"
+
+features:
+  - img: diagnostic.svg
+    title: Diagnóstico
+    subtitle: Tenha a orientação certa para o seu momento
+    description: >
+      A partir da análise das suas informações vamos identificar 
+      suas necessidades e direcionar para o mentor que irá te 
+      auxiliar a atingir o próximo nível do seu negócio.
+
+  - img: mentorship.svg
+    title: Mentoria
+    subtitle: Mentoria especializada para o seu negócio
+    description: >
+      Receba recomendações de mentores selecionados 
+      que têm experiência real de mercado e passam 
+      por uma avaliação contínua pra garantir 
+      a excelência das mentorias.
+
+  - img: follow-up.svg
+    title: Acompanhamento
+    subtitle: Saiba o que precisa pra ir do ponto A ao B
+    description: >
+      Receba recomendações de melhorias para 
+      as necessidades mapeadas do seu estágio
+
+howItWorks:
+  - lottie: lottie-1.json
+    title: Diagnóstico
+    content: >
+      Faça um diagnostico de 3 passos pra saber o nivel de maturidade da sua empresa
+
+  - lottie: lottie-2.json
+    title: Recomendação
+    content: >
+      Receba recomendações de melhorias para as necessidades mapeadas do seu estágio
+
+  - lottie: lottie-3.json
+    title: Orientação
+    content: >
+      Após as recomendações voce receberá proposta de mentores qualificados para a sua solução
+
+benchMarking:
+  head:
+    - Aceleradoras
+    - Instituições
+    - Smartmentor
+  items:
+    - Acompanhamento Contínuo:
+      - false
+      - false
+      - true
+    - Processo Estruturado:
+      - false
+      - false
+      - true
+    - Mentores Qualificados:
+      - true
+      - true
+      - true
+    - Apoio nos estágios iniciais:
+      - false
+      - true
+      - true
+
+testimonials:
+  - img: fabrizio.webp
+    name: Fabrizio Gambarini 
+    role: Founder Agridecision
+    content: >
+      A Smartmentor guiando junto aos seus mentores, 
+      está sendo um parceiro essencial pra o nosso 
+      desenvolvimento e validação de negócio no Brasil
+
+  - img: matheus.webp
+    name: Matheus Vane 
+    role: Médico Anestesiologista
+    content: >
+      A Smartmentor me possibilitou perceber de forma segura 
+      e prática como colocar um conteito viável no mercado 
+      de anestesia, desenvolvendo autonomia nas tecnologias
+
+mentors:
+  - img: evandro.webp
+    name: Evandro Temperini
+    role: Estrategista em Inovação
+    tags:
+      - Inovação
+      - Estratégia
+      - Produto
+    description: >
+      Executivo, Empreendedor, Advisor e Mentor de Negócios.
+      +25 anos de experiência com mais de 270 produtos digitais 
+      lançados. Certificado pelo MIT e na ISO 56.002. 
+      Top 5 Mentores Nacionais / 1º lugar no Whow! 
+      Innovation Awards em Saúde.Fundador da Impulse Inovação 
+      de Alto Impacto e Co-fundador da MonyU e da Tech Lemonade
+
+  - img:  leandro.webp
+    name: Leandro Mazzetto
+    role: Branding e Comunicação
+    tags:
+      - Marketing
+      - Branding
+    description: >
+      +20 Anos de experiência multidisciplinar em marketing, 
+      Publicidade e Jornalismo. Proprietário de agência e 
+      consultor para grandes empresas, startups, fintechs & exchanges. 
+      Desde 2018 criando novos modelos de negócios, 
+      produtos e serviços para projetos Blockchain & Crypto.
+

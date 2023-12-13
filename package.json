@@ -9,7 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@lottiefiles/react-lottie-player": "^3.5.3",
+    "@studio-freight/lenis": "^1.0.29",
+    "js-yaml": "^4.1.0",
+    "js-yaml-loader": "^1.2.2",
+    "lottie-react": "^2.4.0",
     "next": "14.0.4",
+    "next-translate": "^2.6.2",
     "react": "^18",
     "react-dom": "^18"
   },

@@ -1,12 +1,12 @@
-import Heading from "./sections/Heading"
-import ComoFunciona from "../_sections/ComoFunciona"
-import Mentores from "../_sections/Mentores"
+import Heading from "./_sections/Heading"
+import HowItWorks from "../_sections/HowItWorks"
+import Mentors from "../_sections/Mentors"
 import Smartmoney from "../_sections/Smartmoney"
 
 export default () => (
     <main>
         <Heading/>
-        <ComoFunciona items={[
+        <HowItWorks items={[
             {
                 title: "Diagnóstico",
                 content: "Faça um diagnostico de 3 passos pra saber o nivel de maturidade da sua empresa"
@@ -20,7 +20,7 @@ export default () => (
                 content: "Faça um diagnostico de 3 passos pra saber o nivel de maturidade da sua empresa"
             },
         ]}/>
-        <Mentores/>
+        <Mentors/>
         <Smartmoney/>
     </main>
 )

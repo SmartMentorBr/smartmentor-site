@@ -1,7 +1,9 @@
 import { Montserrat } from 'next/font/google'
 import './globals.css'
-import Navigation from './_sections/Navigation'
-import Footer from './_sections/Footer'
+import Navigation from '@/components/sections/navigation/Navigation'
+import Footer from '@/components/sections/Footer'
+import useData from '@/hooks/useData'
+import SmoothScroll from '@/components/effects/SmoothScroll'
 
 const font = Montserrat({ subsets: ['latin'] })
 
@@ -17,6 +19,7 @@ export default function RootLayout({ children }) {
         <Navigation/>
         {children}
         <Footer/>
+        <SmoothScroll/>
       </body>
     </html>
   )
