@@ -1,4 +1,5 @@
 export default ({fill = "#1A1C1B"}) => (
+  <a href="/">
     <svg xmlns="http://www.w3.org/2000/svg" width="164" height="56" fill="none">
       <path
         fill={fill}
@@ -68,4 +69,5 @@ export default ({fill = "#1A1C1B"}) => (
         </linearGradient>
       </defs>
     </svg>
+  </a>
 )

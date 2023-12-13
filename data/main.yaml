@@ -118,3 +118,25 @@ mentors:
       Desde 2018 criando novos modelos de negócios, 
       produtos e serviços para projetos Blockchain & Crypto.
 
+smartmoney:
+  features:
+    - img: graph.svg
+      subtitle: Tenha a orientação certa para o seu momento
+      description: >
+        Na Smartmoney você tem acompanhamento de indicadores chave 
+        para o negócio, KPIs e métricas com fácil acesso já na sua tela inicial.
+
+
+    - img: screen.svg
+      subtitle: Mentoria especializada para o seu negócio
+      description: >
+        Na Smartmoney você tem acompanhamento de indicadores 
+        chave para o negócio, KPIs e métricas com fácil acesso já na sua tela inicial.
+
+
+
+    - img: search.svg
+      subtitle: Saiba o que precisa pra ir do ponto A ao B
+      description: >
+        Na Smartmoney levamos a sério a qualidade e a transparência dos dados, 
+        tenha dados que correspondem à realidade do negócio.
