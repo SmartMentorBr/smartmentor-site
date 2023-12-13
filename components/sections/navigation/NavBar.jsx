@@ -10,7 +10,7 @@ const initial = {
 }
 
 const animateOnClick = {
-    height: '50vh'
+    height: '90vh'
 }
 
 export default ({children}) => {
@@ -18,7 +18,7 @@ export default ({children}) => {
     
     return (
         <motion.div 
-            className="bg-white rounded-lg p-1 flex flex-col 2xl:flex-row justify-between gap-1 overflow-hidden"
+            className="bg-white rounded-lg p-1 flex flex-col 2xl:flex-row lg:justify-between gap-1 overflow-hidden"
             initial={initial}
             animate={open ? animateOnClick : {}}
         >
