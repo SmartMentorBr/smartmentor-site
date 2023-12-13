@@ -12,8 +12,10 @@ export default async () => {
     <Section id="diferenciais">
       <div className="p-8">
         <h2 className="title text-center pb-2">Confira os nossos diferenciais</h2>
-      </div>    
-      <Table head={head} items={items}/>
+      </div>
+      <div className="flex justify-center">
+        <Table head={head} items={items}/>
+      </div>
     </Section>
   )
 }
