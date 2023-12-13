@@ -1,7 +1,6 @@
 'use server'
-
-import HowItWorks from "../_sections/HowItWorks";
-import Contact from "../_sections/Contact";
+import HowItWorks from "@/components/sections/howItWorks/HowItWorks";
+import Contact from "@/components/sections/Contact";
 import Image from "next/image";
 
 export default async () => (

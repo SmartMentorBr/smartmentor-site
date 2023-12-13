@@ -1,7 +1,7 @@
-import Heading from "./_sections/Heading"
-import HowItWorks from "../_sections/HowItWorks"
-import Mentors from "../_sections/Mentors"
-import Smartmoney from "../_sections/Smartmoney"
+import Heading from "@/components/sections/Heading"
+import HowItWorks from "@/components/sections/howItWorks/HowItWorks"
+import Mentors from "@/components/sections/mentors/Mentors"
+import Smartmoney from "@/components/sections/Smartmoney"
 
 export default () => (
     <main>
