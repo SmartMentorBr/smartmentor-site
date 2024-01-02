@@ -8,10 +8,12 @@ import Mentors from '@/components/sections/mentors/Mentors'
 import Mentorship from '@/components/sections/mentorship/Mentorship'
 import Guru from '@/components/sections/Guru'
 import Smartmoney from '@/components/sections/Smartmoney'
+import Cookies from '@/components/Cookies'
 
 export default () => {
   return (
     <div>
+      <Cookies/>
       <Hero/>
       <main>
         <Features/>
