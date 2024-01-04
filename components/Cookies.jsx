@@ -15,10 +15,10 @@ export default function(){
         setCookies(localStorage.getItem("cookies"))
     },[])
 
-    return cookies ? <></> : <div className="fixed bottom-0 w-full bg-black text-white z-10">
+    return cookies ? <></> : <div className="fixed bottom-0 w-full bg-black text-white">
         <Container>
-            <div className="lg:flex justify-between items-center">
-                <div className="flex flex-col gap-0.5 max-w-1x">
+            <div>
+                <div className="">
                     <p className="font-bold">
                         Este Site usa Cookies 
                     </p>
