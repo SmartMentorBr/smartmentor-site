@@ -11,7 +11,7 @@ export default ({img ,name, role, tags, description}) => (
            {
             tags.map(title => <span className="px-1 py-0.5 bg-emerald-400 rounded-3xl text-white font-semibold">
                 {title}
-            </span>)
+            </span>) 
            } 
         </div>
         <p className="max-w-xs text-gray">
