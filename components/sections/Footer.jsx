@@ -21,10 +21,10 @@ export default () => (
             <div className="flex flex-col gap-3 ">
                 <ul className="flex flex-col gap-1 border-l-4 border-l-secondary p-1">
                     <li>
-                        <a href="#">Termos de uso</a>
+                        <a href="https://drive.google.com/file/d/1b4JIs3wKQ_6zHSHw1qLtKQ-o1ygctVaF/view">Termos de uso</a>
                     </li>
                     <li>
-                        <a href="#">Política de Privacidade</a>
+                        <a href="https://drive.google.com/file/d/1su95L41IrCSIMzdzqHSZb0d5aH33wajJ/view?usp=drivesdk">Política de Privacidade</a>
                     </li>
                     <li>
                         <a href="#">Suporte</a>
