@@ -17,7 +17,7 @@ export default function(){
 
     return cookies ? <></> : <div className="fixed bottom-0 w-full bg-black text-white">
         <Container>
-            <div>
+            <div> 
                 <div className="">
                     <p className="font-bold">
                         Este Site usa Cookies 
